@@ -1,0 +1,116 @@
+.wrapper{
+    width: 1060px;
+    margin: 0 auto;
+    font:1em Arial;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+a{
+    text-decoration: none;
+    color: black;
+    /*нет подчеркивания у ссылок*/
+}
+li{
+    display: inline;
+}
+header {
+    /*margin-top: 50px;*/
+    /*margin-left: 70px;*/
+    float: left;
+    padding: 15px;
+
+}
+.sidebar{
+    width: 20%;
+    /*задали ширину*/
+    float: left;
+    /*затем поместили его по левому краю*/
+}
+.nav-sidebar a{
+    display: block;
+    /*показали элемент, как блочный*/
+    padding: 10px;
+    color: lightgray;
+    border:0.5px solid #c0c0c0;
+    /*Универсальное свойство border позволяет одновременно установить толщину, */
+    /*стиль и цвет границы вокруг элемента.*/
+}
+.nav-sidebar a:hover{
+    color: black;
+}
+.content{
+    display: inline-block;
+    /*использовать как блочно-строчные элементы*/
+    width: 80%;
+    /*clear: both;*/
+}
+.content figure{
+    border:1px solid #a8a8a8;
+    /*Универсальное свойство border позволяет одновременно установить толщину, */
+    /*стиль и цвет границы вокруг элемента.*/
+    /*max-width:100%;*/
+    /*Устанавливает максимальную ширину элемента*/
+    text-align:center;
+    padding:40px;
+    /*Устанавливает значение полей вокруг содержимого элемента.*/
+}
+.article{
+    line-height: 1.3em;
+}
+.article p{
+    padding:0 50px;
+}
+#copyright{
+    color: black;
+    float: right;
+    padding-right: 30px;
+}
+.nav-wrapper {
+    height: 40px;
+    line-height:40px;
+    /*Для блочных элементов определяет минимальную высоту строки текста*/
+    background: -webkit-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
+    background: -moz-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
+    clear: both;
+}
+.nav-wrapper a {
+    display: inline-block;
+    /*Это значение генерирует блочный элемент, который обтекается другими элементами*/
+    width: 101px;
+    margin-left: 20px;
+    text-align: center;
+    border-left: 1px solid rgba(0,0,0,0);
+    /*Свойство border-left позволяет одновременно установить толщину, стиль и цвет левой границы элемента.*/
+    border-right:1px solid rgba(0,0,0,0);
+    color: #ffffff;
+}
+.nav-wrapper a:hover {
+    background: -webkit-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
+    background: -moz-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
+    border-left: 1px solid #848484;
+    border-right:1px solid #848484;
+
+}
+.nav-wrapper-down {
+    height: 40px;
+    line-height:40px;
+    /*Для блочных элементов определяет минимальную высоту строки текста*/
+    background-color: #e1e1e1;
+}
+.nav-wrapper-down a {
+    display: inline-block;
+    /*Это значение генерирует блочный элемент, который обтекается другими элементами*/
+    width: 101px;
+    margin-left: 20px;
+    text-align: center;
+    border-left: 1px solid rgba(0,0,0,0);
+    /*Свойство border-left позволяет одновременно установить толщину, стиль и цвет левой границы элемента.*/
+    border-right:1px solid rgba(0,0,0,0);
+    color: black;
+}
+.nav-wrapper-down a:hover {
+    background: -webkit-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
+    background: -moz-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
+    border-left: 1px solid #848484;
+    border-right:1px solid #848484;
+    text-decoration: underline;
+}
